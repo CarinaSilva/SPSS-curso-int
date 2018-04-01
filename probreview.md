@@ -14,7 +14,7 @@ The follow exercises will cover the concepts of:
 The exercises will be solved using R. If you have any questions press red light of your monitor.
 
 
-###*Introduction*
+### Introduction
 
 Every random variable has an associated probability distribution function. This
 function is called a probability mass function in the case of a discrete random
@@ -31,7 +31,7 @@ random samples.
 
 In <https://stat.ethz.ch/R-manual/R-devel/library/stats/html/Distributions.html> you can find the R functions for several distributions.
 
-> ** Bernoulli Distribution $$X \sim Ber(1,\theta)$$**
+> **Bernoulli Distribution $$X \sim Ber(1,\theta)$$**
 
 
 
@@ -145,15 +145,16 @@ sqrt(20*0.7*0.3)
 
 **Exercise 3.** What probability does this R code represent: pbinom(15,20,0.7)-pbinom(10,20,0.7)+dbinom(10,20,0.7)
 
-
+<details><summary>Click Here to see the answer</summary>
 
 
 ```r
 # P(10<=X<=20)
 ```
 
+</details><br/>
 
-> ** Normal Distribution $$X \sim N(\mu,\sigma)$$**
+> **Normal Distribution $$X \sim N(\mu,\sigma)$$**
 
 
 
