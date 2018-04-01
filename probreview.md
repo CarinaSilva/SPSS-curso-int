@@ -1,17 +1,3 @@
----
-title: "Advanced Biostatistics 2018 - Practical Exercises"
-author: "carina"
-date: '2018-04-01'
-output:
-  html_document:
-    keep_md: true
----
-
-x <- rmarkdown::render("file.RMD", run_pandoc = FALSE, clean = FALSE)
-knit_meta <- attr(x, "knit_meta") 
-rmarkdown::render(input = 'file.knit.md', knit_meta = knit_meta )
-
-<style type="text/css"> body, td { font-size: 18px; } code.r{ font-size: 18px; } pre { font-size: 16px } </style> 
 
 ## Probability Review
 
